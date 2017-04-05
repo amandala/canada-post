@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App__header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App__intro {
+  font-size: 24px;;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* AutoComplete */
+
+.AutoComplete, .Search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.AutoComplete__field {
+  margin: 5px;
+  width: 100%;
+  max-width: 150px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #D5D5D5;
+  font-weight: 100;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.AutoComplete__instructions {
+  margin: 50px 0px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.AutoComplete__heading {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.AutoComplete__message {
+  margin: 5px 0px;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.AutoComplete__button {
+  margin-top: 25px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid #da291c;
+  background-color: #da291c;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.AutoComplete__button:hover {
+  background-color: #da291c;
+  opacity: 0.75;
+}
+
+/* Modal */
+
+.Modal {
+  padding: 20px;
+}
+
+.Modal__heading {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.Modal__text {
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Select */
+
+.Select {
+  width: 160px;
+  margin-bottom: 20px;
+}
+
+.Select-placeholder{
+  font-weight: 100;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: left;
+  color: #C0C0C0C0;
+}
+
+
+.Select-menu-outer {
+  font-size: 16px;
+}
+
+
+
+.Select-input > input {
+  width: 100% !important;
+}
